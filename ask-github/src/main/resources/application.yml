@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ask-github
+
+apis:
+  github:
+    url: https://api.github.com/users/{githubUsername}/starred
+
